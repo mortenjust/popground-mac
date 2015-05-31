@@ -6,3 +6,5 @@ Experiment in real-time with Facebook POP animations
 # Install
 * Uses cocoapods
 
+# Known issues
+* The Default button may leave some sliders in a wrong position, move them to resolve
