@@ -18,6 +18,10 @@ class ViewController: NSViewController {
     @IBOutlet weak var velocity: NSSlider!
     var sb : Float!
     
+    @IBOutlet weak var output: NSScrollView!
+    
+    @IBOutlet var outputText: NSTextView!
+    
     
     @IBOutlet weak var animationButton: NSButton!
     
@@ -26,7 +30,7 @@ class ViewController: NSViewController {
     
     func setupSlider(slider : NSSlider) {
         slider.target = self
-        slider.action = "sliderChanged"
+        slider.action = #selector(sliderChanged)
     }
     
     override func viewDidLoad() {
@@ -36,7 +40,7 @@ class ViewController: NSViewController {
         let sliders = [springBounciness, springSpeed, dynamicsTension, dynamicsFriction, dynamicsMass]
         
         for slider in sliders {
-            setupSlider(slider)
+            setupSlider(slider: slider!)
         }
         
         setDefaults()
@@ -53,7 +57,7 @@ class ViewController: NSViewController {
 //        velocity.floatValue = defAnim.velocity as! Float
     }
     
-    func sliderChanged(){
+  @objc func sliderChanged(){
         var anim = POPSpringAnimation()
         //springBounciness, springSpeed, dynamicsTension, dynamicsFriction, dynamicsMass, velocity
         anim.springBounciness = CGFloat(springBounciness.floatValue)
@@ -61,26 +65,34 @@ class ViewController: NSViewController {
         anim.dynamicsTension = CGFloat(dynamicsTension.floatValue)
         anim.dynamicsFriction = CGFloat(dynamicsFriction.floatValue)
         anim.dynamicsMass = CGFloat(dynamicsMass.floatValue)
-        anim.property = POPAnimatableProperty.propertyWithName(kPOPLayerPositionX) as! POPAnimatableProperty
-        anim.toValue = 388.0
+        anim.property = POPAnimatableProperty.property(withName: kPOPLayerPositionX) as! POPAnimatableProperty
+    
+    anim.autoreverses = true
+        anim.toValue = 30
         anim.fromValue = 20
         animationButton.layer?.pop_removeAllAnimations()
-        animationButton.layer?.pop_addAnimation(anim, forKey: "positionx")
+        animationButton.layer?.pop_add(anim, forKey: "positionx")
+    
+    
+let str = """
+anim.springBounciness = \(CGFloat(springBounciness.floatValue))
+anim.springSpeed = \(CGFloat(springSpeed.floatValue))
+anim.dynamicsTension = \(CGFloat(dynamicsTension.floatValue))
+anim.dynamicsFriction = \(CGFloat(dynamicsFriction.floatValue))
+anim.dynamicsMass = \(CGFloat(dynamicsMass.floatValue))
+"""
+    
+    outputText.string = str
     }
     
     
     @IBAction func resetClicked(sender: AnyObject) {
-        println("resetting")
+        print("resetting")
         setDefaults()
         sliderChanged()
     }
     
 
-    override var representedObject: AnyObject? {
-        didSet {
-        // Update the view, if already loaded.
-        }
-    }
 
 
 }

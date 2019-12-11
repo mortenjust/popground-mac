@@ -1,0 +1,6 @@
+framework module Pods_popGroundTests {
+  umbrella header "Pods-popGroundTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

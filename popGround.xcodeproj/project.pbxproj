@@ -7,40 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A87E485F4865A7AB4864A719 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E33219B79BC3814249C61D /* libPods.a */; };
+		C8607FEA23A10D7800AD9E3C /* Pods_popGround.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18AAA4B06BAE641E53DFF68D /* Pods_popGround.framework */; };
 		C8C7550E1B16EDE30021A4F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C7550D1B16EDE30021A4F5 /* AppDelegate.swift */; };
 		C8C755101B16EDE30021A4F5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C7550F1B16EDE30021A4F5 /* ViewController.swift */; };
 		C8C755121B16EDE30021A4F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8C755111B16EDE30021A4F5 /* Images.xcassets */; };
 		C8C755151B16EDE30021A4F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8C755131B16EDE30021A4F5 /* Main.storyboard */; };
-		C8C755211B16EDE30021A4F5 /* popGroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C755201B16EDE30021A4F5 /* popGroundTests.swift */; };
 		C8C755411B192F3C0021A4F5 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = C8C755401B192F3C0021A4F5 /* Podfile */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C8C7551B1B16EDE30021A4F5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C8C755001B16EDE30021A4F5 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C8C755071B16EDE30021A4F5;
-			remoteInfo = popGround;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		85FF7E3292D5171C4BA149A1 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		C1D1FEC731E8443C2795A03E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		C4E33219B79BC3814249C61D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		18AAA4B06BAE641E53DFF68D /* Pods_popGround.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_popGround.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B061817BEB4EAAF11EFA468 /* Pods-popGround.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-popGround.release.xcconfig"; path = "Target Support Files/Pods-popGround/Pods-popGround.release.xcconfig"; sourceTree = "<group>"; };
+		273CE2BB8E66024078483C01 /* Pods-popGroundTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-popGroundTests.release.xcconfig"; path = "Target Support Files/Pods-popGroundTests/Pods-popGroundTests.release.xcconfig"; sourceTree = "<group>"; };
 		C8C755081B16EDE30021A4F5 /* popGround.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = popGround.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C7550C1B16EDE30021A4F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8C7550D1B16EDE30021A4F5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8C7550F1B16EDE30021A4F5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C8C755111B16EDE30021A4F5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C8C755141B16EDE30021A4F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C8C7551A1B16EDE30021A4F5 /* popGroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = popGroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8C7551F1B16EDE30021A4F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C8C755201B16EDE30021A4F5 /* popGroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popGroundTests.swift; sourceTree = "<group>"; };
 		C8C755401B192F3C0021A4F5 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		C8C755421B1930960021A4F5 /* popGround-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "popGround-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		D90688870F738FFD3BC07304 /* Pods_popGroundTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_popGroundTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C8CBBDEFE13C66106FDB23 /* Pods-popGroundTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-popGroundTests.debug.xcconfig"; path = "Target Support Files/Pods-popGroundTests/Pods-popGroundTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E89155EE4E22C457AC42A625 /* Pods-popGround.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-popGround.debug.xcconfig"; path = "Target Support Files/Pods-popGround/Pods-popGround.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,35 +39,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A87E485F4865A7AB4864A719 /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C8C755171B16EDE30021A4F5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				C8607FEA23A10D7800AD9E3C /* Pods_popGround.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AEA353ECC7EBD96024B43795 /* Frameworks */ = {
+		4A1784D384B2A79A2E9EEE89 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				C4E33219B79BC3814249C61D /* libPods.a */,
+				E89155EE4E22C457AC42A625 /* Pods-popGround.debug.xcconfig */,
+				1B061817BEB4EAAF11EFA468 /* Pods-popGround.release.xcconfig */,
+				E6C8CBBDEFE13C66106FDB23 /* Pods-popGroundTests.debug.xcconfig */,
+				273CE2BB8E66024078483C01 /* Pods-popGroundTests.release.xcconfig */,
 			);
-			name = Frameworks;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		BE0F217DF5952606C36C2639 /* Pods */ = {
+		4F39E9E1DFC973E2DB0214B5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C1D1FEC731E8443C2795A03E /* Pods.debug.xcconfig */,
-				85FF7E3292D5171C4BA149A1 /* Pods.release.xcconfig */,
+				18AAA4B06BAE641E53DFF68D /* Pods_popGround.framework */,
+				D90688870F738FFD3BC07304 /* Pods_popGroundTests.framework */,
 			);
-			name = Pods;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		C8C754FF1B16EDE30021A4F5 = {
@@ -86,8 +73,8 @@
 				C8C7550A1B16EDE30021A4F5 /* popGround */,
 				C8C7551D1B16EDE30021A4F5 /* popGroundTests */,
 				C8C755091B16EDE30021A4F5 /* Products */,
-				BE0F217DF5952606C36C2639 /* Pods */,
-				AEA353ECC7EBD96024B43795 /* Frameworks */,
+				4A1784D384B2A79A2E9EEE89 /* Pods */,
+				4F39E9E1DFC973E2DB0214B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,7 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				C8C755081B16EDE30021A4F5 /* popGround.app */,
-				C8C7551A1B16EDE30021A4F5 /* popGroundTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -145,11 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C8C755241B16EDE30021A4F5 /* Build configuration list for PBXNativeTarget "popGround" */;
 			buildPhases = (
-				48018353A268E128660417F8 /* Check Pods Manifest.lock */,
+				50D3D6CF65E2AD410E338660 /* [CP] Check Pods Manifest.lock */,
 				C8C755041B16EDE30021A4F5 /* Sources */,
 				C8C755051B16EDE30021A4F5 /* Frameworks */,
 				C8C755061B16EDE30021A4F5 /* Resources */,
-				01210054309AEE3808767BF5 /* Copy Pods Resources */,
+				AAF66809C9194D2E1E16A7EA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,24 +145,6 @@
 			productName = popGround;
 			productReference = C8C755081B16EDE30021A4F5 /* popGround.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C8C755191B16EDE30021A4F5 /* popGroundTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C8C755271B16EDE30021A4F5 /* Build configuration list for PBXNativeTarget "popGroundTests" */;
-			buildPhases = (
-				C8C755161B16EDE30021A4F5 /* Sources */,
-				C8C755171B16EDE30021A4F5 /* Frameworks */,
-				C8C755181B16EDE30021A4F5 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C8C7551C1B16EDE30021A4F5 /* PBXTargetDependency */,
-			);
-			name = popGroundTests;
-			productName = popGroundTests;
-			productReference = C8C7551A1B16EDE30021A4F5 /* popGroundTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -190,10 +158,6 @@
 					C8C755071B16EDE30021A4F5 = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
-					C8C755191B16EDE30021A4F5 = {
-						CreatedOnToolsVersion = 6.3.2;
-						TestTargetID = C8C755071B16EDE30021A4F5;
-					};
 				};
 			};
 			buildConfigurationList = C8C755031B16EDE30021A4F5 /* Build configuration list for PBXProject "popGround" */;
@@ -201,6 +165,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -210,7 +175,6 @@
 			projectRoot = "";
 			targets = (
 				C8C755071B16EDE30021A4F5 /* popGround */,
-				C8C755191B16EDE30021A4F5 /* popGroundTests */,
 			);
 		};
 /* End PBXProject section */
@@ -226,44 +190,47 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8C755181B16EDE30021A4F5 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		01210054309AEE3808767BF5 /* Copy Pods Resources */ = {
+		50D3D6CF65E2AD410E338660 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputPaths = (
+			inputFileListPaths = (
 			);
-			name = "Copy Pods Resources";
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-popGround-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		48018353A268E128660417F8 /* Check Pods Manifest.lock */ = {
+		AAF66809C9194D2E1E16A7EA /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-popGround/Pods-popGround-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-popGround/Pods-popGround-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -278,23 +245,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8C755161B16EDE30021A4F5 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C8C755211B16EDE30021A4F5 /* popGroundTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C8C7551C1B16EDE30021A4F5 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C8C755071B16EDE30021A4F5 /* popGround */;
-			targetProxy = C8C7551B1B16EDE30021A4F5 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C8C755131B16EDE30021A4F5 /* Main.storyboard */ = {
@@ -390,7 +341,7 @@
 		};
 		C8C755251B16EDE30021A4F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C1D1FEC731E8443C2795A03E /* Pods.debug.xcconfig */;
+			baseConfigurationReference = E89155EE4E22C457AC42A625 /* Pods-popGround.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -400,12 +351,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "popGround-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
 		C8C755261B16EDE30021A4F5 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 85FF7E3292D5171C4BA149A1 /* Pods.release.xcconfig */;
+			baseConfigurationReference = 1B061817BEB4EAAF11EFA468 /* Pods-popGround.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -414,42 +366,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "popGround-Bridging-Header.h";
-			};
-			name = Release;
-		};
-		C8C755281B16EDE30021A4F5 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = popGroundTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/popGround.app/Contents/MacOS/popGround";
-			};
-			name = Debug;
-		};
-		C8C755291B16EDE30021A4F5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = popGroundTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/popGround.app/Contents/MacOS/popGround";
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -470,15 +387,6 @@
 			buildConfigurations = (
 				C8C755251B16EDE30021A4F5 /* Debug */,
 				C8C755261B16EDE30021A4F5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C8C755271B16EDE30021A4F5 /* Build configuration list for PBXNativeTarget "popGroundTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C8C755281B16EDE30021A4F5 /* Debug */,
-				C8C755291B16EDE30021A4F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

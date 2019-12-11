@@ -4,7 +4,13 @@ PODS:
 DEPENDENCIES:
   - pop (~> 1.0)
 
+SPEC REPOS:
+  trunk:
+    - pop
+
 SPEC CHECKSUMS:
   pop: 628ffc631644601567ee8bfaaaea493ebd7d0923
 
-COCOAPODS: 0.37.0.beta.1
+PODFILE CHECKSUM: 6fa6449a842dcc3b9b6ae02fedd5773ddea2f29d
+
+COCOAPODS: 1.8.4
